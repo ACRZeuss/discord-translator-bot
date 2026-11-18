@@ -1,0 +1,7 @@
+services:
+  discord-translator-bot:
+    build: .
+    container_name: discord-translator-bot
+    restart: unless-stopped
+    env_file:
+      - .env
