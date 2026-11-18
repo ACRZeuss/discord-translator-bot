@@ -1,7 +1,16 @@
 .git
 .gitignore
+.dockerignore
 .venv
 venv
 __pycache__
 *.pyc
+*.pyo
+*.pyd
 .env
+.env.*
+.vscode
+.idea
+README.md
+LICENSE
+docker-compose.yml
